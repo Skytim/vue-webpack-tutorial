@@ -10,10 +10,12 @@
     </el-select>
   </el-form-item>
   </el-col>
-    <el-form-item label="Draw.No">
-    <el-input v-model="formInline.user" ></el-input>
+  <el-col :span="3">
+  <el-form-item label="Draw.No">
+    <el-input v-model="formInline.user" style="width:150px"></el-input>
   </el-form-item>
-  <el-form-item>
+  </el-col>
+<el-form-item>
 
 <el-popover
   placement="bottom"
