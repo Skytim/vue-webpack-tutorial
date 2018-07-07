@@ -1,6 +1,8 @@
 <template>
-  <div class="home">  
+  <div >  
+    <el-main>
     <ResultsSettltment/>
+    </el-main>
   </div>
 </template>
 

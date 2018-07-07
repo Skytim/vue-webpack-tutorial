@@ -1,7 +1,7 @@
 <template>
 <div>
 <search-bar></search-bar>
-<h3>Main </h3>
+<result-table></result-table>
 </div>
 </template>
 <script lang="ts" src="./Index.ts">
