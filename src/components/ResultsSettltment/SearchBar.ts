@@ -8,4 +8,5 @@ export default class SearchBar extends Vue {
     region: '',
   };
   public value6: string = '';
+  private dialogTableVisible: boolean = false;
 }
