@@ -1,7 +1,8 @@
 <template>
   <div >  
-    <el-main>
+ 
      <Navbar/>
+      <el-main>
      <ResultsSettltment/>
     </el-main>
   </div>

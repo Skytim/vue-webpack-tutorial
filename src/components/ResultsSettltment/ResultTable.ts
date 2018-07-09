@@ -4,24 +4,49 @@ import { Component, Vue } from 'vue-property-decorator';
 export default class ResultTable extends Vue {
   public tableData2: object[] = [
     {
-      date: '2016-05-02',
+      no: '1',
       name: '王小虎',
-      address: '上海市普陀区金沙江路 1518 弄',
+      counter: 'ShangHai',
+      drawNo: 564,
+      resultStatus: 'Pending',
     },
     {
-      date: '2016-05-04',
+      no: '2',
       name: '王小虎',
-      address: '上海市普陀区金沙江路 1518 弄',
+      counter: 'ShangHai',
+      drawNo: 565,
+      resultStatus: 'Pending',
     },
     {
-      date: '2016-05-01',
+      no: '3',
       name: '王小虎',
-      address: '上海市普陀区金沙江路 1518 弄',
+      counter: 'ShangHai',
+      drawNo: 566,
+      resultStatus: 'Pending',
     },
     {
-      date: '2016-05-03',
+      no: '100',
       name: '王小虎',
-      address: '上海市普陀区金沙江路 1518 弄',
+      counter: 'ShangHai',
+      drawNo: 567,
+      resultStatus: 'Pending',
     },
   ];
+  private form: object = {
+    name: '',
+    region: '',
+    date1: '',
+    date2: '',
+    delivery: false,
+    type: [],
+    resource: '',
+    desc: '',
+  };
+  private ScrapeResult() {
+   this.$message({
+    message: '恭喜你，这是一条成功消息',
+    type: 'success',
+    duration: 2000,
+  });
+  }
 }
